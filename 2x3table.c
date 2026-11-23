@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
-    int a[2][3];
+    int a[3][3];
    
     // THIS LOOP  NASTED USE FOR TAKING INPUT
-    for (int i = 0; i < 2; i++)
+    for (int i = 0; i < 3; i++)
     {
 
       for (int j = 0; j < 3; j++)
@@ -14,7 +14,7 @@ int main(){
       
     }
     // THIS NASTED LOOP USE FOR PRINT      OUTPUT
-    for (int i = 0; i < 2; i++)
+    for (int i = 0; i < 3; i++)
     {
     for (int j = 0; j < 3; j++)
     {
